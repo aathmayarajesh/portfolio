@@ -533,10 +533,13 @@ h1, h2, h3 {
   color: var(--muted);
 }
 
+.score-slip__scale { min-height: 1.4em; }
+
 .score-slip__passlabel {
   position: absolute;
   left: var(--pass);
   transform: translateX(-50%);
+  letter-spacing: 0.06em;
 }
 
 @keyframes fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
